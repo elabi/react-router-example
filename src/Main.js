@@ -3,17 +3,22 @@ import {
     Route,
     NavLink,
     HashRouter
-  } from "react-router-dom";
-  import Home from "./Home";
-  import Stuff from "./Stuff";
-  import Contact from "./Contact";
+} from "react-router-dom";
+import Home from "./Home";
+import Stuff from "./Stuff";
+import Contact from "./Contact";
+import 'tachyons';
+import './main.css';
 
 class Main extends Component {
   render() {
     return (
         <HashRouter>
         <div>
+          <div className="header">
+          <img alt='' src='https://image.flaticon.com/teams/slug/freepik.jpg' height="42" width="42"/> 
           <h1>React Router Example</h1>
+          </div>
             <ul className="header">
                 <li><NavLink to="/">Home</NavLink></li>
                 <li><NavLink to="/stuff">Stuff</NavLink></li>

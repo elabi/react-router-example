@@ -1,0 +1,12 @@
+.header img {
+    float: left;
+    overflow: auto;
+    margin-top: 10px;
+}
+
+.header h1 {
+    position: relative;
+    top: 18px;
+    left: 10px;
+    overflow: auto;
+  }
